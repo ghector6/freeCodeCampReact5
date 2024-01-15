@@ -11,6 +11,9 @@ function App() {
         alt=""
         />
       </div>
+      <div className="principal-task-list">
+        <h1>My tasks</h1>
+      </div>
     </div>
   );
 }
