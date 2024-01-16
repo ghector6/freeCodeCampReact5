@@ -3,10 +3,10 @@ import '../styles/Task.css'
 import { AiFillLike } from "react-icons/ai";
 
 
-function Task({ text }) {
+function Task({ text, done }) {
   return (
 
-    <div className="task-container">
+    <div className={ done ? 'task-container done' : 'task-container'}>
       <div className="task-text">
         {text}
       </div>
