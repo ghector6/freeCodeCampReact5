@@ -10,8 +10,8 @@ function Task({ text }) {
       <div className="task-text">
         {text}
       </div>
-      <div className="task-icon">
-        <AiFillLike />
+      <div className="task-container-icon">
+        <AiFillLike className="task-icon"/>
       </div>
     </div>
   )
