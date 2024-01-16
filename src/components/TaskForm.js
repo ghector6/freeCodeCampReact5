@@ -11,7 +11,7 @@ function TaskForm(props) {
           name="text"
         />
         <button className='task-button'>
-          Add a Task
+          Add task
         </button>
 
     </form>
@@ -19,4 +19,4 @@ function TaskForm(props) {
   )
 }
 
-export TaskForm;
+export default TaskForm;
