@@ -28,3 +28,10 @@
   height: 25px;
   margin: 5px;
 }
+
+/*Task done*/
+
+.task-container.done {
+  background-color: #5a01a7;
+  text-decoration: line-through;
+}
